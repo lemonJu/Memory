@@ -1,0 +1,69 @@
+/* = common
+-------------------------------------*/
+body{width: 700px;height: 500px;margin: 0;font-size: 14px;font-family: 'dpstickmedium'}
+
+a{text-decoration: none;color: #000;transition:all .2s;}
+
+ul{list-style : none;padding: 0}
+h1,h2{font-weight: normal;}
+
+main{width: auto;height: 100%;overflow:hidden;position: relative}
+main .main-inner{width: 4200px;height: 500px;position: absolute;left: 0;top: 0}
+main .page{width: 700px;height: 100%;position: absolute;display: none}
+
+
+.img-display{position: absolute;left: 0;top: 0;width: 100%;height: 100%;background: rgba(0,0,0,.5);display: none;z-index: 3}
+.img-display > img{width: 90%;height: 90%;margin-left: 5%;margin-top: 5%}
+
+
+/* = ready
+-------------------------------------*/
+#ready {display: block}
+#ready > h1{text-align: center;width: 100%;font-size: 32px;}
+#ready > h1#loading{padding-top: 200px;font-size: 22px}
+
+/* = page-intro-first
+-------------------------------------*/
+
+#page-intro-first{background: url(image/intro-1.jpg) no-repeat}
+.chat{height: 100%;width: 280px;margin: 0 auto;background: red;padding: 1px}
+.chat-display{width: 100%;height: 500px;border-radius: 5px;background: #fff;margin-top: 100px}
+.chat-display .chat-scroll-imgs{m1argin-top: 100px}
+
+
+/* = page-sta
+-------------------------------------*/
+#page-sta canvas{width: 100%;height: 100%}
+
+
+/* = page-header page-intro-first
+-------------------------------------*/
+.page-header{
+	width: 100%;
+	height: 100px;
+}
+.page-header img{
+	float: left;
+}
+.header-message{
+	float: right;
+}
+.header-message h2{
+	font-size: 18px;
+}
+nav{width: 100px;height: 100%;float: left;}
+.wall{width: 600px;height: 100%;float: right;}
+.wall a{position: relative;display: block;float: left;width: 33.3333%;height: 33.33333%}
+.wall a:hover > span.mask-img{z-index: 2;background: #000;opacity: .5}
+.wall span.mask-img{position: absolute;z-index: -1;width: 100%;height: 100%;left: 0;top: 0}
+.wall img{width: 100%;height: 100%}
+/* = page-content
+-------------------------------------*/
+.page-content{
+	width: 100%;
+	height: 400px;
+}
+
+nav ul li{
+	font-size: 25px
+}

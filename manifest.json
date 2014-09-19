@@ -1,0 +1,23 @@
+{
+	"manifest_version" : 2,
+	"name" : "memory",
+	"version" : "0.0.1",
+	"description" : "record our memory by pototes",
+	"browser_action": {
+		"default_popup": "index.html",
+		"default_title" : "Memory~"
+	},
+	"icons": { 
+		"128": "index.png" 
+	},
+	"permissions": [
+        "tabs", 
+        "http://*/*", 
+        "https://*/*", 
+        "notifications",
+        "contextMenus"
+     ],
+	"background" : {
+		"scripts" : ["jquery92.js"]
+	}
+}
